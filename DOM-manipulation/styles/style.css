@@ -1,0 +1,134 @@
+
+body {
+    background: #EEF7FB;
+    font-family: 'Roboto', sans-serif;}
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    h3 {
+        font-size:28px;
+    }
+
+.wrapper {
+    width:1100px;
+    margin:0 auto;
+
+
+}
+
+.logo {
+    display:inline-block;
+}
+
+#left-content {
+    min-width:500px;
+    margin-right:110px;
+}
+
+ul {
+    display:inline-block;
+}
+
+button {
+    display:inline-block;
+}
+
+header {
+    flex-wrap: wrap;
+    flex-direction:row;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+
+
+a {
+    text-decoration:none;
+    color:#232D22;
+}
+
+nav li {
+    font-size:14px;
+    display:inline-block;
+    color:#232D22;
+    font-weight:bold;
+    margin-left:25px;
+}
+
+main {
+    display:flex;
+    margin-top:50px;
+}
+
+.intro-text {
+    font-size:64px;
+}
+
+.checkout-btn {
+    width:200px;
+    height:60px;
+    margin-top:50px;
+    background: #232D22;
+    border-radius:4px;
+    color:white;
+}
+
+.checkout-btn a {
+    color:white;
+}
+
+.plant-1 {
+    background:white;
+    position:relative;
+    height:425px;
+    border-radius:20px;
+    box-shadow:1.5px 4.2px 36px rgba(0,0,0,0.15);
+    padding:50px 25px;
+}
+
+
+.plant-1 img {
+    top:-100px;
+    left:-75px;
+    position:absolute;
+
+}
+
+
+.plant-2 {
+    left:200px;
+    right:200px;
+    margin-top:21px;
+    margin-left:50px;
+    width:381px;
+    height:404px;
+    background:white;
+    border-radius:20px;
+    box-shadow:1.5px 4.2px 36px rgba(0,0,0,0.15);
+}
+
+.login {
+    margin-left:100px;
+    padding:12px 50px;
+    border:1px solid darkgray;
+    border-radius:12px;
+}
+
+#right-content {
+    display:flex;
+}
+
+.plantDescription {
+
+    position:relative;
+    top:275px;
+}
+
+.plantDescription a {
+    color: green;
+}
