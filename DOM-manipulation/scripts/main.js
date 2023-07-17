@@ -43,3 +43,60 @@ function createTable() {
 
 
 }
+
+/*
+function checkAgeNotNegative() {
+
+    let textbox = document.getElementById('age');
+
+    let output = document.getElementById('output-text');
+
+
+    let age = textbox.value;
+
+
+    if(age < 0) 
+{
+    output.textContent = 'Age must be higher than 0';
+} else {
+    output.textContent = age;
+}
+
+
+
+}
+
+*/
+
+function getAgeValue(){
+
+
+    let element = document.querySelector('#age');
+
+    let age = element.value;
+
+    return age;
+    
+}
+
+
+function init() {
+
+   const age = getAgeValue();
+
+   let element = document.querySelector('#age');
+
+    element.addEventListener('blur', getAgeValue);
+
+    console.log(age);
+
+}
+
+
+document.addEventListener('DOMContentLoaded', init);
+
+
+// Working with Forms
+
+// Accessing Forms
+
