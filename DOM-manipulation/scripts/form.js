@@ -49,6 +49,11 @@ scroll_location.addEventListener('scroll', scrolling);
 
 }
 
+window.setTimeout(function () {
+console.log('Hello');
+}, 5000);
+
 document.addEventListener('DOMContentLoaded', init);
 
 
+XMLHttpRequest();
